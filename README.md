@@ -2,39 +2,51 @@
 
 ## 1. Project Explanation
 
-This is a **full-stack Sweet Shop Management System** consisting of both **frontend and backend**, developed and integrated by me. The backend provides RESTful APIs for authentication, business logic, and data persistence, while the frontend (React + Vite) consumes these APIs to deliver a smooth user experience.
+The Sweet Shop Management System is a full-stack MERN application developed using MongoDB, Express.js, React.js, and Node.js. The project is designed to manage sweets inventory and user interactions through a secure and role-based system.
 
-The system supports role-based access (User/Admin) and secure operations using JWT authentication.
+The backend provides RESTful APIs for authentication, authorization, and business logic, while the frontend (built with React + Vite) consumes these APIs to deliver a responsive and user-friendly interface.
 
----
+The system supports two roles:
 
-## Backend Overview
+User: Can register, log in, view sweets, search/filter, and purchase sweets.
 
-The backend is built using **Node.js and Express.js** and is responsible for:
+Admin: Can add, update, delete, and restock sweets.
 
-* User authentication (Register & Login)
-* JWT-based authorization
-* CRUD operations for sweets
-* Role-based access control (Admin/User)
-* Database interaction
+Security is handled using JWT-based authentication, and the application follows clean architecture with proper separation of concerns between frontend and backend.
 
-The backend runs independently and exposes APIs consumed by the frontend.
+Backend Overview
 
----
+The backend is built using Node.js and Express.js and is responsible for:
 
-## 1. Project Explanation
+User registration and login
 
-This project is the **frontend application** for the Sweet Shop Management System, built using **React.js with Vite**. It provides a fast, modern UI for users and admins to interact with the system.
+JWT-based authentication and authorization
 
-Key features:
+Role-based access control (Admin/User)
 
-* User authentication (Login & Register)
-* View sweets list
-* Search and filter sweets
-* Purchase sweets (user role)
-* Admin dashboard for managing sweets (add, update, delete, restock)
+CRUD operations for sweets
 
-The frontend communicates with a backend REST API using Axios and environment-based configuration.
+Database interaction and validation
+
+The backend runs independently and exposes REST APIs that are consumed by the frontend.
+
+Frontend Overview
+
+The frontend is built using React.js with Vite, providing a fast and modern development experience.
+
+Key frontend features include:
+
+Login and Registration pages
+
+Sweets listing with search and filter
+
+Purchase functionality for users
+
+Admin dashboard for managing sweets
+
+Protected routes based on authentication state
+
+The frontend communicates with the backend using Axios and environment-based configuration.
 
 ## 2. Tech Stack
 
@@ -271,3 +283,6 @@ This ensures transparency and responsible AI usage.
 
 **Overall Result:** ✅ All tests passed without critical issues.
 
+Screen-Shots:
+
+![alt text](image-1.png)
