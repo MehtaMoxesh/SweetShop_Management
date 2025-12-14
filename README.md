@@ -271,18 +271,3 @@ This ensures transparency and responsible AI usage.
 
 **Overall Result:** ✅ All tests passed without critical issues.
 
----
-
-## 10. Repository Link
-
-> 🔗 Add your public Git repository link here
-
-```
-https://github.com/your-username/your-repo-name
-```
-
----
-
-## 11. Plagiarism Declaration
-
-All code in this project is written by me. AI tools were used only for assistance and productivity. No code was copied from external repositories or developers. The final implementation reflects my own understanding and work.
