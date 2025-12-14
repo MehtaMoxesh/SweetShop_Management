@@ -285,4 +285,6 @@ This ensures transparency and responsible AI usage.
 
 Screen-Shots:
 
-![alt text](image-1.png)
+All Screen-Shots are in below folderlink
+
+📁 [src/assets](./src/assets)
